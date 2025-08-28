@@ -1,0 +1,62 @@
+# Socket API Test Suite - Git Ignore File
+
+# Environment files (contain sensitive API tokens)
+.env
+.env.local
+.env.production
+.env.staging
+
+# Test results and output files
+test_results/
+*.log
+*.txt
+*.xml
+*.spdx
+*.json
+
+# Temporary test files
+test_package.json
+test_*.json
+temp_*
+tmp_*
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Shell history
+.bash_history
+.zsh_history
+
+# Backup files
+*.bak
+*.backup
+*.orig
+
+# Test artifacts
+sbom_exports_*/
+test_run_*/
+
+# API response caches
+api_cache/
+response_cache/
+
+# Rate limiting and quota tracking
+quota_*.json
+rate_limit_*.json
+
+# Personal test data
+personal_*.sh
+custom_*.sh
