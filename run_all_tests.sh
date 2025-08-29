@@ -271,6 +271,7 @@ main() {
         ["04_test_full_scans.sh"]="Full Scans Tests"
         ["05_test_repository_management.sh"]="Repository Management Tests"
         ["06_test_sbom_export.sh"]="SBOM Export Tests"
+        ["07_test_cve_dependency_traversal.sh"]="CVE Dependency Traversal Tests"
     )
     
     # Check all test scripts exist

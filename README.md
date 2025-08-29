@@ -25,7 +25,8 @@ socket_api_tests/
 ├── 03_test_alert_types.sh              # Alert metadata tests
 ├── 04_test_full_scans.sh               # Security scanning tests
 ├── 05_test_repository_management.sh    # Repository management tests
-└── 06_test_sbom_export.sh             # SBOM export functionality tests
+├── 06_test_sbom_export.sh             # SBOM export functionality tests
+└── 07_test_cve_dependency_traversal.sh # CVE dependency traversal tests
 ```
 
 ## 🚀 Quick Start
@@ -203,6 +204,24 @@ chmod +x *.sh
 - File integrity validation
 - Error handling for invalid exports
 - Custom metadata handling
+
+### 7. CVE Dependency Traversal Tests (`07_test_cve_dependency_traversal.sh`)
+
+**Scenario**: Demonstrate practical CVE remediation using Socket API data
+
+**Coverage**:
+- Package alert analysis for dependency identification
+- Systematic version traversal to find CVE-free alternatives
+- Dependency upgrade path generation
+- Security remediation workflow automation
+- Practical dependency management examples
+
+**Key Tests**:
+- Real-world CVE remediation (lodash CVE-2021-23337)
+- Dependency alert analysis and pattern recognition
+- Version range generation and systematic checking
+- Upgrade path documentation and rollback planning
+- Integration with CI/CD workflows
 
 ## 🔧 Customization
 
